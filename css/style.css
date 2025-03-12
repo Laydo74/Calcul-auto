@@ -1,50 +1,31 @@
-body {
-    font-family: 'Dancing Script', cursive;
-    background: white;
-    margin: 0;
-    padding: 20px;
-}
-
-h1, h2, h3 {
-    font-family: 'Rock Salt', cursive;
-    color: #0000FF; /* Bleu */
-}
-
+/* Changement des couleurs */
 nav {
-    background: #FF0000; /* Rouge */
-    padding: 15px;
-    text-align: center;
+    background: #0000FF; /* Bleu vif */
+    padding: 20px;
 }
 
 nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-}
-
-.calculator {
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 20px;
-    border: 2px solid #0000FF;
-    border-radius: 10px;
-}
-
-input, button {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    font-size: 18px;
+    color: #FFD700; /* Or */
+    font-size: 1.2em;
 }
 
 button {
-    background: #0000FF;
-    color: white;
-    border: none;
-    cursor: pointer;
+    background: #FF0000; /* Rouge vif */
+    transition: all 0.3s;
 }
 
-#resultat {
-    margin-top: 20px;
-    font-size: 20px;
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(255,0,0,0.3);
+}
+
+/* Ajouter une bannière */
+.hero-banner {
+    background: url('https://i.imgur.com/abc123.jpg') center/cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
 }
